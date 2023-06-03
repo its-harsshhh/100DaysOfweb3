@@ -26,10 +26,8 @@ I'll be updating my progress regularly, and you can find a detailed log of my jo
 
 Throughout my #100DaysOfWeb3 challenge, I'll be using various resources to enhance my learning experience. Here are some of the resources I'll be referring to:
 
-- [Resource 1](link_to_resource1): A comprehensive guide on Web3 development.
-- [Resource 2](link_to_resource2): A tutorial series on building decentralized applications.
-- [Resource 3](link_to_resource3): A curated list of Web3 frameworks and tools.
-
+- [Alchemy University](https://university.alchemy.com/)
+- [Learn web3](lhttps://learnweb3.io/)
 Feel free to explore the repository, clone it, and use any code or resources that you find helpful.
 
 Happy learning! 🚀
@@ -39,8 +37,7 @@ Happy learning! 🚀
  <br>
   Follow me on social media for more awesome content:
   
-[Twitter](https://twitter.com/harsh_user)
-[LinkedIn](https://www.linkedin.com/in/harsh_user)
-[Instagram](https://www.instagram.com/harsh_user)
+[Twitter](https://twitter.com/Choley_Bhature)
+[LinkedIn](https://www.linkedin.com/in/its-harsshhh/)
 
 </div>
