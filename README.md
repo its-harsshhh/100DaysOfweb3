@@ -27,7 +27,7 @@ I'll be updating my progress regularly, and you can find a detailed log of my jo
 Throughout my #100DaysOfWeb3 challenge, I'll be using various resources to enhance my learning experience. Here are some of the resources I'll be referring to:
 
 - [Alchemy University](https://university.alchemy.com/)
-- [Learn web3](lhttps://learnweb3.io/)
+- [Learn web3](https://learnweb3.io/) <br>
 Feel free to explore the repository, clone it, and use any code or resources that you find helpful.
 
 Happy learning! 🚀
