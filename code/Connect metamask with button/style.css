@@ -1,0 +1,27 @@
+:root{
+    --primary-color: rgb(37, 111, 212);
+}
+
+.centered-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.style-button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border: solid 1px var(--primary-color);
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--primary-color);
+    letter-spacing: 1.5px;
+    min-width: 80px;
+    padding: 9px 12px 9px 12px;
+    line-height: 24px;
+    transition: 0.1s;
+}
