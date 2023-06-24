@@ -16,12 +16,13 @@ The commonly used data types in Solidity are:
 6. Arrays: Solidity supports both fixed-size and dynamic arrays. You can define arrays of any other data type, such as uint[], string[], or bytes32[]. Dynamic arrays can change in size during execution, while fixed-size arrays have a predetermined length.
 7. Structs: Structs allow you to define custom composite data types. They can contain multiple variables of different types.
 8. Mappings: Mappings are key-value data structures. They are like hash tables or dictionaries and allow efficient lookup of values based on unique keys.
-9. Enums: Enums allow you to define a custom type with a finite set of possible values. Each value represents a named constant.
+9. Enums: Enums allow you to define a custom type with a finite set of possible values. Each value represents a named constant
 
 
 # What does uint256 mean?
 
 In Solidity, uint256 is an example of an unsigned integer data type with a size of 256 bits. Let's break it down:
+
 • uint: This stands for "unsigned integer." It means that the variable can only store positive or zero values and cannot hold negative numbers.
 • 256: This specifies the number of bits used to represent the integer value. In this case, it's 256 bits, which allows for a wide range of values to be stored. The uint256 type provides a range of values from 0 to 2^256-1 (i.e., from 0 to 115792089237316195423570985008687907853269984665640564039457584007913129639935).
 We can also use other variations of unsigned integer types in Solidity, such as uint8, uint16, uint32, and so on, depending on the range of values you need to store.
@@ -50,6 +51,5 @@ To summarize, the “payable” state modifier is used when a function can recei
 State modifiers (view, pure) are typically specified when the function does not modify the contract's state variables. They are used to indicate that the function is read-only (view or pure). The “payable” state modifier is used when a function can receive Ether and can modify the state variables of the contract.
 
 # Why is no storage location keyword like “memory”, or “storage” being used here in the “set()” function to store the parameter, “_value”?
-
 In Solidity, the memory data location can only be specified for complex types such as arrays, structs, or mappings. It cannot be used for simple value types like uint256, bool, or address. Therefore, when you explicitly specify the memory data location for a simple value type parameter like uint256, it will result in a compilation error.
 Note: The default behaviour is that the parameter will be stored in memory.
